@@ -26,15 +26,13 @@ Uma implementação em Python da biblioteca DEAP recebe uma tabela em csv produz
 
 Ajustes na ordem preferencial de visitas e inclusão de sequências obrigatórias podem ser feitas através da ativação de restrições no arquivo Python.
 
-1.	Instruções para uso dos scripts de Matlab:
-a.	Sequência de arquivos que devem ser rodados
-i.	principal_escolhaPontos.m
-ii.	principalCalcCustos.m
-iii.	criaMatrizPexcel1.m
+1.	Instruções para uso dos arquivos deste trabalho:
 
-Script: principal_escolhaPontos.m: cria o mapa a partir da imagem contida no arquivo platMG02m.png na mesma pasta e salva em mapMG2.csv. Solicita que o usuário escolha os pontos com o mouse na figura do Matlab e salva esses pontos em checkPoints.csv.
+
+principal_escolhaPontos.m: cria o mapa a partir da imagem contida no arquivo platMG02m.png na mesma pasta e salva em mapMG2.csv. Solicita que o usuário escolha os pontos com o mouse na figura do Matlab e salva esses pontos em checkPoints.csv.
 
 principalCalcCustos.m: tem como entradas mapMG2.csv e checkPoints.csv e calcula os custos entre todas as combinações de pontos de interesse e salva em custos.csv. 
+
 criaMatrizPexcel1.m: tem como entrada custos.csv e gera a matriz de custos para o Excel salva em matrizcustos.csv 
 
 otimTrajMG_Final.ipynb: implementado em Python e recebe uma tabela em csv produzida com o Matlab e calcula usando algoritmos genéticos a sequência de visitas com menor custo. Tem como entrada o arquivo gerado por criaMatrizPexcel1.m. ATENÇÃO: devem ser modificadas as 2 linhas com o caminho onde está o arquivo csv com a tabela de custos.
