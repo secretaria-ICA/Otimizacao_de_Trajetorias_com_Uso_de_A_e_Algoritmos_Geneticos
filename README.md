@@ -37,7 +37,13 @@ Script: principal_escolhaPontos.m: cria o mapa a partir da imagem contida no arq
 principalCalcCustos.m: tem como entradas mapMG2.csv e checkPoints.csv e calcula os custos entre todas as combinações de pontos de interesse e salva em custos.csv. 
 criaMatrizPexcel1.m: tem como entrada custos.csv e gera a matriz de custos para o Excel salva em matrizcustos.csv 
 
-otimTrajMG_Final.ipynb: implementado em Python e recebe uma tabela em csv produzida com o Matlab e calcula usando algoritmos genéticos a sequência de visitas com menor custo. Tem como entrada o arquivo gerado por criaMatrizPexcel1.m
+otimTrajMG_Final.ipynb: implementado em Python e recebe uma tabela em csv produzida com o Matlab e calcula usando algoritmos genéticos a sequência de visitas com menor custo. Tem como entrada o arquivo gerado por criaMatrizPexcel1.m. ATENÇÃO: devem ser modificadas as 2 linhas com o caminho onde está o arquivo csv com a tabela de custos.
+
+testeComparativoComSoluçãoEmPython.xlsx: este arquivo pode ser usado para avaliar o desempenho obtido com a implementação em Python com um recurso similar disponível no Microsoft Excel.
+
+FigApresentacao2.m: pode ser usado para criar uma figura com o desenho da melhor trajetória. Copiar a saída do Excel ou Python dentro do arquivo e executar no Matlab. ATENÇÃO com a diferença de indexação nos diferentes ambientes de simulação, isto é, começar em 1 ou zero.
+
+
 
 
 
