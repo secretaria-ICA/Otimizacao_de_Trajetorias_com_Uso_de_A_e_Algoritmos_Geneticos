@@ -3,8 +3,8 @@ Otimização de trajetórias com uso de A* e Algoritmos Genéticos
 
 # Título do Trabalho
 
-#### Aluno: Maurício Galassi (https://github.com/link_do_github)
-#### Orientador(/a/es/as): Ana Carolina Alves Abreu (https://github.com/link_do_github) 
+#### Aluno: Maurício Galassi (https://github.com/MauricioGalassi/TrabalhoFinal)
+#### Orientadora: Ana Carolina Alves Abreu (https://github.com/link_do_github) 
 
 
 ---
